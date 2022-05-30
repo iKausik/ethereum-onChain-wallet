@@ -1,0 +1,32 @@
+{
+  "name": "shared-wallet-smart-contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@typechain/ethers-v5": "^7.2.0",
+    "@typechain/hardhat": "^2.3.1",
+    "@types/chai": "^4.3.1",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^12.20.50",
+    "chai": "^4.3.6",
+    "dotenv": "^10.0.0",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.4",
+    "hardhat": "^2.9.3",
+    "mocha": "^10.0.0",
+    "solhint": "^3.3.7",
+    "solidity-coverage": "^0.7.21",
+    "ts-node": "^10.7.0",
+    "typechain": "^5.2.0",
+    "typescript": "^4.6.4"
+  }
+}
