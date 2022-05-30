@@ -107,8 +107,6 @@ contract SharedWallet {
     // Total Funds under Management in the Wallet
     function getTotalWalletBalance() public view onlyOwner returns (uint256) {
         return walletBalance;
-
-        // emit WalletTotalFunds(owner, walletBalance);
     }
 
     function getAllAccountHolders()
