@@ -117,4 +117,8 @@ contract SharedWallet {
     {
         return allAccountHolders;
     }
+
+    function getAccountNumber() public view onlyUser returns (address) {
+        return users[msg.sender].account_addr;
+    }
 }
